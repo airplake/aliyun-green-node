@@ -2,8 +2,8 @@ const TextScanner = require('../lib')
 const uuidV1 = require('uuid/v1')
 
 const Scanner = new TextScanner({
-  AccessKeyId: 'Your Access Key',
-  AccessKeySecret: 'Your Secret Key'
+  AccessKeyId: 'u6vDG44BBCG4sc45',
+  AccessKeySecret: 'sS4e47EZoq5Io1ZGPRVAF5cwEijKZr'
 })
 
 // Text Scan DEMO
