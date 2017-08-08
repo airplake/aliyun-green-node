@@ -9,7 +9,7 @@ const Scanner = new TextScanner({
 let ContentList = [
   {
     dataId: uuidV1(),
-    content: 'fuck'
+    content: 'fuc2k'
   },
   {
     dataId: uuidV1(),
@@ -17,11 +17,31 @@ let ContentList = [
   }
 ]
 
-Scanner.scan({
+Scanner.scanText({
   scenes: 'antispam',
   tasks: ContentList
 }).then((respone) => {
-  console.log(respone.result)
+  console.log(respone)
+}).catch(err => {
+  console.log(err)
+})
+
+let ImgList = [
+  {
+    dataId: uuidV1(),
+    url: 'https://cdn.pixabay.com/photo/2016/01/07/19/49/model-1126417__480.jpg'
+  },
+  {
+    dataId: uuidV1(),
+    url: 'http://pic.yesky.com/uploadImages/2014/350/44/NENOJ6U717UU.png'
+  }
+]
+
+Scanner.scanImg({
+  scenes: 'porn',
+  tasks: ImgList
+}).then((respone) => {
+  console.log(respone)
 }).catch(err => {
   console.log(err)
 })
