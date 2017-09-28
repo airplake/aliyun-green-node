@@ -43,8 +43,8 @@ class TextScanner {
   async scanImg (args) {
     let path = '/green/image/scan'
     let body = await this.core(args, path)
-    if (body.code !== 200) {
-      throw Error(body.msg)
+    if (body.data[0].code !== 200) {
+      throw Error(body.data[0].msg)
     }
     let resultObj = {
       body,

@@ -1,6 +1,6 @@
 {
   "name": "aliyun-green-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs sdk for aliyun green",
   "main": "lib/index.js",
   "repository": "git@github.com:airplake/aliyun-green-node.git",

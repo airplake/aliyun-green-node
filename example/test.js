@@ -31,7 +31,7 @@ Scanner.scanImg({
   tasks: [
     {
       dataId: uuidV1(),
-      url: 'https://cdn.pixabay.com/photo/2016/01/07/19/49/model-1126417__480.jpg'
+      url: 'http://ooa2erl8d.bkt.clouddn.com/002eaf9f0709471bbab9619aca6a94e8.jpg'
     },
     {
       dataId: uuidV1(),
